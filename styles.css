@@ -3,9 +3,10 @@ h1 {
     font-size: 50;
 }
 
-ul {
+nav {
     text-align: right;
     font-size: 25;
+    display: inline-block;
 }
 
 h2 {
