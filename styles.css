@@ -5,7 +5,8 @@ header {
 h1 {
     float: left;
     font-size: 45px;
-    margin-top: 0px;
+    margin-top: 10px;
+    margin-left: 225px;
 }
 
 nav {
@@ -20,27 +21,43 @@ nav ul {
     padding: 0;
     margin: 0;
     text-align: right;
+    margin-right: 100px;
+}
+
+a:link {
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    color: red;
 }
 
 li:first-child {
-   margin-right: 25px;
+   margin-right: 200px;
 }
 
 li:nth-child(2n) {
-    margin-right: 25px;
+    margin-right: 200px;
+}
+
+li:last-child {
+    margin-right: 200px;
 }
 
 h2 {
     text-align: center;
     font-size: 70px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+    padding-top: 200px;
 }
 
 p1 {
     text-align: center;
     font-size: 25px;
     text-indent: 48px;
-    line-height: 30px;
+    line-height: 35px;
     margin-top: 0px;
 }
 
