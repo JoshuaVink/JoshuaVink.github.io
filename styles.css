@@ -41,6 +41,7 @@ nav ul {
     margin: 0;
     text-align: right;
     margin-right: 100px;
+    align-items: center;
 }
 
 nav a {
@@ -56,11 +57,8 @@ nav a {
 
 .dropbtn {
     font-size: 35px;
-    margin-top: 28px;
     background-color: red;
     color: white;
-    padding: 0;
-    display: flex;
 }
 
 .dropbtn:hover {
@@ -94,7 +92,7 @@ nav a {
 }
 
 a:link {
-    color: black;
+    color: white;
 }
 a:hover {
     color: blue;
@@ -134,4 +132,3 @@ p {
     line-height: 35px;
     margin-top: 0px;
 }
-
