@@ -6,13 +6,15 @@
     color: #fff;
 }
 
-.fixed-header{
+.fixed-header {
     top: 0;
 }
-.fixed-footer{
+
+.fixed-footer {
     bottom: 0;
 }
-.container{
+
+.container {
     width: 80%;
     margin: 0 auto;
     background-color:rgb(205,201,201);
@@ -29,6 +31,7 @@ nav {
     float: right;
     font-size: 35px;
     margin-top: 28px;
+    overflow: hidden;
 }
 
 nav ul {
@@ -40,11 +43,54 @@ nav ul {
     margin-right: 100px;
 }
 
-nav a{
-    color: #fff;
+nav a {
+    color: white;
     text-decoration: none;
     padding: 7px 25px;
     display: inline-block;
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropbtn {
+    font-size: 35px;
+    margin-top: 28px;
+    background-color: red;
+    color: white;
+    padding: 0;
+    display: flex;
+}
+
+.dropbtn:hover {
+    color: blue;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 a:link {
@@ -54,7 +100,7 @@ a:hover {
     color: blue;
 }
 a:active {
-    color:black;
+    color: black;
 }
 
 li:first-child {
