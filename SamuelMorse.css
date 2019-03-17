@@ -1,7 +1,7 @@
 .fixed-header, .fixed-footer {
     width: 100%;
     position: fixed;        
-    background: red;
+    background:#3232ff;
     padding: 10px 0;
     color: #fff;
 }
@@ -25,6 +25,7 @@ h1 {
     font-size: 45px;
     margin-top: 28px;
     margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -32,6 +33,7 @@ nav {
     font-size: 35px;
     margin-top: 28px;
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav ul {
@@ -57,12 +59,12 @@ nav a {
 
 .dropbtn {
     font-size: 35px;
-    background-color: red;
+    background-color:#3232ff;
     color: white;
 }
 
 .dropbtn:hover {
-    color: blue;
+    color: #808080;
 }
 
 .dropdown .dropbtn {
@@ -73,7 +75,7 @@ nav a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: red;
+    background-color:#3232ff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -95,7 +97,7 @@ a:link {
     color: white;
 }
 a:hover {
-    color: blue;
+    color: #808080;
 }
 a:active {
     color: black;
@@ -123,6 +125,7 @@ h2 {
     font-size: 70px;
     margin-bottom: 10px;
     padding-top: 200px;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -131,4 +134,5 @@ p {
     text-indent: 48px;
     line-height: 35px;
     margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
 }
