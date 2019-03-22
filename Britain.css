@@ -1,4 +1,4 @@
-.fixed-header, .fixed-footer {
+.fixed-header {
     width: 100%;
     position: fixed;        
     background:#3232ff;
@@ -124,15 +124,21 @@ h2 {
     text-align: center;
     font-size: 70px;
     margin-bottom: 10px;
-    padding-top: 200px;
+    padding-top: 100px;
     font-family: 'Roboto', sans-serif;
 }
 
 p {
     text-align: left;
-    font-size: 25px;
+    font-size: 30px;
     text-indent: 48px;
-    line-height: 35px;
+    line-height: 40px;
     margin-top: 0px;
     font-family: 'Roboto', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.Weaving {
+    padding-left: 3px;
 }
