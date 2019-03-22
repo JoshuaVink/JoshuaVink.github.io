@@ -6,6 +6,9 @@
     color: #fff;
 }
 
+h1 {
+    color:orange;
+}
 .fixed-header {
     top: 0;
 }
